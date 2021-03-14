@@ -2,5 +2,5 @@
 
 Simple project of imaginary online store with planets.
 
-# Deployment
+## Deployment
 https://ptrvsky.github.io/planet-store/
