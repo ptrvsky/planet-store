@@ -87,6 +87,12 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 20px;
+
+    @media only screen and (max-width: 1100px) {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
 
     .side {
       &.left {
@@ -95,11 +101,21 @@ export default {
         align-items: center;
         min-height: 100%;
 
+        @media only screen and (max-width: 1100px) {
+          min-height: unset;
+          margin-top: 100px;
+        }
+
         .planet-model-container {
           position: relative;
           width: 500px;
           height: 500px;
           z-index: 10;
+
+          @media only screen and (max-width: 1100px) {
+            width: 250px;
+            height: 250px;
+          }
 
           .model, .background-light {
             position: absolute;
@@ -126,6 +142,14 @@ export default {
         align-items: flex-end;
         max-width: 500px;
         text-align: right;
+
+        @media only screen and (max-width: 1100px) {
+          align-items: center;
+          text-align: center;
+          margin-top: 10px;
+
+          font-size: 0.8em;
+        }
 
         .top-text {
           font-size: 2.7em;

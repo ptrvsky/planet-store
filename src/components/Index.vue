@@ -9,6 +9,7 @@
 
 <script>
 import GeneralContent from "@/components/index/GeneralContent";
+
 export default {
   name: 'Index',
   components: {
@@ -29,7 +30,8 @@ export default {
 @keyframes moveStars {
   from {
     transform: translateX(0);
-  } to {
+  }
+  to {
     transform: translateX(-2000px);
   }
 }

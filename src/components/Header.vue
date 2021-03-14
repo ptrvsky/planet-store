@@ -30,13 +30,14 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 2;
+  z-index: 100;
 
   .header-content {
     max-width: 1280px;
     width: 1280px;
     display: flex;
     justify-content: space-between;
+    margin: 0 20px;
 
     .side {
       display: flex;
