@@ -147,8 +147,7 @@ export default {
           align-items: center;
           text-align: center;
           margin-top: 10px;
-
-          font-size: 0.8em;
+          font-size: 0.9em;
         }
 
         .top-text {
@@ -166,7 +165,7 @@ export default {
         .button {
           border-radius: 10px;
           background: linear-gradient(180deg, rgba(250, 0, 255, 1) 0%, rgba(255, 0, 77, 1) 100%);
-          padding: 20px 60px;
+          padding: 1em 2em;
           font-weight: 500;
           margin-top: 35px;
           box-shadow: 0 4px 10px 0 black;
